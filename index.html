@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li>Tic-Tac-Toe</li>
+        </ul>
+    </nav>
+
+    <div id="winnerPopUp">Nobody</div>
+
+    <div id="container">
+
+        <div id="gameContainer">
+            <div class="box" id="b0" data-id="0"> <span></span></div>
+            <div class="box" id="b1" data-id="1"> <span></span></div>
+            <div class="box" id="b2" data-id="2"> <span></span></div>
+            <div class="box" id="b3" data-id="3"> <span></span></div>
+            <div class="box" id="b4" data-id="4"> <span></span></div>
+            <div class="box" id="b5" data-id="5"> <span></span></div>
+            <div class="box" id="b6" data-id="6"> <span></span></div>
+            <div class="box" id="b7" data-id="7"> <span></span></div>
+            <div class="box" id="b8" data-id="8"> <span></span></div>
+        </div>
+
+        <div id="gameInfo">
+            <div id="brand">Made by Harsh Gaur</div>
+            <div id="whosTurn" style="display: flex; justify-content: center;">Turn: </div>
+            <div id="winner" style="display: flex; justify-content: center;">Winner: </div>
+            <div id="resetButton" style="display: flex; justify-content: center;">
+                <button type="reset" id="reset">Reset</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
